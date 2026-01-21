@@ -34,6 +34,16 @@ function Header() {
             >
               Resources
             </Link>
+            <Link
+              to="/about"
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                isActive('/about')
+                  ? 'bg-blue-100 text-blue-700'
+                  : 'text-gray-600 hover:bg-gray-100'
+              }`}
+            >
+              About
+            </Link>
           </nav>
         </div>
       </div>
