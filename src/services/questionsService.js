@@ -1,5 +1,24 @@
 import fallbackQuestions from '../data/questions.json'
 
+const CATEGORY_MAP = {
+  'Product Strategy': 'Product Sense',
+  'AI Product Sense': 'Product Sense',
+  'AI/ML Concepts': 'Technical',
+  'AI Technical': 'Technical',
+  'Technical Trade-offs': 'Technical',
+  'General': 'Behavioral',
+  'Communication': 'Behavioral',
+  'Metrics & Analytics': 'Analytics',
+  'AI Ethics': 'Ethics & UX',
+  'User Experience': 'Ethics & UX'
+}
+
+const CATEGORIES = ['Product Sense', 'Technical', 'Behavioral', 'Analytics', 'Ethics & UX']
+
+export function mapCategory(category) {
+  return CATEGORY_MAP[category] || category
+}
+
 export function parseCSV(csvText) {
   const lines = csvText.trim().split('\n')
   if (lines.length < 2) return []
@@ -66,8 +85,17 @@ export function sanitizeQuestions(questions) {
 }
 
 export function getCategories(questions) {
-  const categories = [...new Set(questions.map(q => q.category))]
-  return categories.sort()
+  return CATEGORIES
+}
+
+export function getCompanies(questions) {
+  const companies = [...new Set(questions.filter(q => q.company).map(q => q.company))]
+  return companies.sort()
+}
+
+export function filterByCompany(questions, company) {
+  if (!company || company === 'all') return questions
+  return questions.filter(q => q.company === company)
 }
 
 export function filterByCategory(questions, category) {
@@ -85,7 +113,11 @@ export function getRandomQuestion(questions, excludeIds = []) {
 
 export async function fetchQuestions() {
   try {
-    return fallbackQuestions.questions || []
+    const questions = fallbackQuestions.questions || []
+    return questions.map(q => ({
+      ...q,
+      category: mapCategory(q.category)
+    }))
   } catch (error) {
     console.error('Error loading questions:', error)
     return []
@@ -97,7 +129,10 @@ export const questionsService = {
   validateQuestion,
   sanitizeQuestions,
   getCategories,
+  getCompanies,
   filterByCategory,
+  filterByCompany,
   getRandomQuestion,
-  fetchQuestions
+  fetchQuestions,
+  mapCategory
 }

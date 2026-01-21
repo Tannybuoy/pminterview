@@ -4,24 +4,30 @@ import { useTimer } from '../hooks/useTimer'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 import QuestionCard from '../components/Questions/QuestionCard'
 import CategoryFilter from '../components/Questions/CategoryFilter'
+import CompanyFilter from '../components/Questions/CompanyFilter'
 import Timer from '../components/Questions/Timer'
 import StatusSelector from '../components/Questions/StatusSelector'
 import ProgressDashboard from '../components/Questions/ProgressDashboard'
 
 function QuestionsPage() {
   const [selectedCategory, setSelectedCategory] = useLocalStorage('aipm_selectedCategory', 'all')
+  const [selectedCompany, setSelectedCompany] = useLocalStorage('aipm_selectedCompany', 'all')
   const [timerVisible, setTimerVisible] = useLocalStorage('aipm_timerVisible', true)
   const [progress, setProgress] = useLocalStorage('aipm_progress', {})
   const [recentQuestions, setRecentQuestions] = useLocalStorage('aipm_recentQuestions', [])
 
   const {
     questions,
+    allQuestions,
     categories,
+    companies,
     currentQuestion,
     getNextQuestion,
+    getCategoryCounts,
+    getCompanyCounts,
     isLoading,
     error
-  } = useQuestions(selectedCategory, recentQuestions)
+  } = useQuestions(selectedCategory, selectedCompany, recentQuestions)
 
   const { time, reset: resetTimer } = useTimer(currentQuestion?.id)
 
@@ -73,21 +79,31 @@ function QuestionsPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
-        <CategoryFilter
-          categories={categories}
-          selected={selectedCategory}
-          onChange={setSelectedCategory}
-          questionCounts={questions.reduce((acc, q) => {
-            acc[q.category] = (acc[q.category] || 0) + 1
-            return acc
-          }, {})}
-        />
-        <Timer
-          time={time}
-          visible={timerVisible}
-          onToggle={() => setTimerVisible(v => !v)}
-        />
+      <div className="flex flex-col gap-4 mb-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="flex flex-wrap items-center gap-4">
+            <CategoryFilter
+              categories={categories}
+              selected={selectedCategory}
+              onChange={setSelectedCategory}
+              questionCounts={getCategoryCounts()}
+            />
+            <CompanyFilter
+              companies={companies}
+              selected={selectedCompany}
+              onChange={setSelectedCompany}
+              questionCounts={getCompanyCounts()}
+            />
+          </div>
+          <Timer
+            time={time}
+            visible={timerVisible}
+            onToggle={() => setTimerVisible(v => !v)}
+          />
+        </div>
+        <div className="text-sm text-gray-500">
+          Showing {questions.length} of {allQuestions.length} questions
+        </div>
       </div>
 
       {currentQuestion ? (

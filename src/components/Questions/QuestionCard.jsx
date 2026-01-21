@@ -9,9 +9,16 @@ function QuestionCard({ question, currentStatus }) {
 
   return (
     <div className={`bg-white rounded-lg shadow-sm border-l-4 ${borderClass} p-6`}>
-      <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm font-medium rounded-full mb-4">
-        {question.category}
-      </span>
+      <div className="flex flex-wrap items-center gap-2 mb-4">
+        <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm font-medium rounded-full">
+          {question.category}
+        </span>
+        {question.company && (
+          <span className="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm font-medium rounded-full">
+            {question.company}
+          </span>
+        )}
+      </div>
       <p className="text-xl text-gray-900 leading-relaxed">
         {question.question}
       </p>
