@@ -1,0 +1,106 @@
+Company Name,Interview Question,Question Type
+OpenAI,Describe a time when you had to pivot an AI product strategy based on model limitations,AI Product Sense
+OpenAI,How would you design a content moderation system for a large language model?,AI Technical
+OpenAI,Walk me through your process for evaluating whether to build vs buy an AI capability,AI Product Sense
+OpenAI,Tell me about a time you had to manage stakeholder expectations around AI capabilities,General
+OpenAI,How would you approach building a roadmap that balances model improvements with feature development?,AI Product Sense
+Anthropic,Design a system to measure and improve AI safety in a consumer product,AI Technical
+Anthropic,How would you handle a situation where your AI model produces biased outputs for certain demographics?,General
+Anthropic,Describe your approach to defining success metrics for responsible AI features,Analytics
+Anthropic,Tell me about a time you had to balance innovation with safety considerations,General
+Anthropic,How would you design an interface that helps users understand AI limitations?,AI Product Sense
+Google DeepMind,Walk me through how you would prioritize research breakthroughs versus product features,AI Product Sense
+Google DeepMind,How do you approach working with research scientists versus product engineers?,General
+Google DeepMind,Design an AI system to improve healthcare diagnostics while ensuring patient privacy,AI Technical
+Google DeepMind,Tell me about a time when scientific accuracy conflicted with product usability,General
+Google DeepMind,How would you measure the impact of an AI research breakthrough on product outcomes?,Analytics
+Meta,How would you integrate generative AI into Instagram Stories without compromising authenticity?,AI Product Sense
+Meta,Describe a situation where you had to scale an AI feature from millions to billions of users,General
+Meta,Design a recommendation system that balances engagement with user wellbeing,AI Technical
+Meta,Walk me through how you'd approach A/B testing for features with AI-generated content,Analytics
+Meta,Tell me about a time you worked with data scientists to improve model performance in production,AI Technical
+Microsoft,How would you incorporate AI capabilities into Microsoft Teams to improve productivity?,AI Product Sense
+Microsoft,Describe your experience managing products that integrate multiple AI models,AI Technical
+Microsoft,Tell me about a time you had to explain technical AI tradeoffs to executive leadership,General
+Microsoft,How would you prioritize AI features in a suite of enterprise products?,AI Product Sense
+Microsoft,Design an AI copilot feature for a business application you're familiar with,AI Product Sense
+Amazon,How would you use AI to improve the customer experience in e-commerce search and discovery?,AI Product Sense
+Amazon,Describe a time you used experimentation to validate an AI feature's business impact,Analytics
+Amazon,Walk me through how you'd design Alexa's next breakthrough capability,AI Product Sense
+Amazon,Tell me about handling a situation where an AI model's cost exceeded projected ROI,AI Technical
+Amazon,How do you balance personalization with privacy in AI-powered recommendations?,General
+Nvidia,How would you position an AI infrastructure product to both technical and business buyers?,General
+Nvidia,Describe your approach to product strategy when selling to AI researchers versus enterprises,AI Product Sense
+Nvidia,Tell me about a time you had to educate customers on complex technical capabilities,General
+Nvidia,How would you measure developer adoption and satisfaction for an AI platform?,Analytics
+Nvidia,Design a product strategy for making AI training more accessible to smaller companies,AI Product Sense
+Hugging Face,How would you build a community-driven AI product while maintaining quality standards?,AI Product Sense
+Hugging Face,Describe your experience with open-source product strategies in AI,General
+Hugging Face,Tell me about balancing free community features with enterprise monetization,General
+Hugging Face,How would you design a discovery experience for thousands of AI models?,AI Product Sense
+Hugging Face,Walk me through prioritizing features for both researchers and practitioners,General
+Scale AI,How would you design a data labeling workflow that ensures both quality and efficiency?,AI Product Sense
+Scale AI,Describe a time you improved operational metrics in a data-intensive product,Analytics
+Scale AI,Tell me about managing a product where human annotation is critical to AI performance,AI Technical
+Scale AI,How would you build tools to help companies evaluate and improve their training data?,AI Product Sense
+Scale AI,Walk me through your approach to pricing a data service for AI companies,General
+Cohere,How would you differentiate an enterprise LLM product in a competitive market?,AI Product Sense
+Cohere,Describe your approach to building AI APIs that developers love to use,AI Product Sense
+Cohere,Tell me about a time you gathered and prioritized feedback from technical users,General
+Cohere,How would you design developer documentation and examples for an AI platform?,General
+Cohere,Walk me through measuring stickiness and expansion for an AI API product,Analytics
+Perplexity,Design a search experience that leverages both traditional search and generative AI,AI Product Sense
+Perplexity,How would you measure whether AI-generated answers are better than traditional results?,Analytics
+Perplexity,Describe handling a situation where AI responses contained factual errors,General
+Perplexity,Tell me about balancing comprehensiveness with speed in AI-powered search,AI Technical
+Perplexity,How would you design citation and source attribution for AI-generated content?,AI Product Sense
+Mistral,How would you position an open-weight AI model against closed competitors?,AI Product Sense
+Mistral,Describe your strategy for building products in both open-source and commercial contexts,General
+Mistral,Tell me about a time you had to make build vs partner decisions for AI capabilities,General
+Mistral,How would you approach international expansion for an AI product?,General
+Mistral,Walk me through designing pricing tiers for models of different sizes and capabilities,Analytics
+Character.AI,How would you design safety rails for a conversational AI product used by millions?,AI Technical
+Character.AI,Describe your approach to measuring engagement in AI conversation products,Analytics
+Character.AI,Tell me about handling content moderation at scale for AI-generated conversations,General
+Character.AI,How would you design personalization that respects user privacy?,AI Product Sense
+Character.AI,Walk me through adding multiplayer or social features to an AI product,AI Product Sense
+Runway,How would you make generative video AI accessible to non-technical creators?,AI Product Sense
+Runway,Describe a time you translated cutting-edge AI capabilities into user-friendly features,General
+Runway,Tell me about balancing creative control with AI assistance in content tools,AI Product Sense
+Runway,How would you measure creative success versus technical metrics in generative AI?,Analytics
+Runway,Design an onboarding experience for an AI tool with steep learning curves,General
+Adept,How would you design an AI agent that takes actions on behalf of users safely?,AI Technical
+Adept,Describe your approach to building trust when AI makes autonomous decisions,General
+Adept,Tell me about a time you designed guardrails for AI with significant user impact,General
+Adept,How would you prioritize which workflows to automate with AI agents?,AI Product Sense
+Adept,Walk me through measuring productivity gains from AI automation,Analytics
+Inflection,How would you design an AI companion product that feels personal but maintains boundaries?,AI Product Sense
+Inflection,Describe handling situations where users develop unhealthy attachments to AI,General
+Inflection,Tell me about balancing emotional intelligence with appropriate AI limitations,AI Technical
+Inflection,How would you measure emotional wellbeing outcomes for an AI companion?,Analytics
+Inflection,Design privacy controls for a highly personalized conversational AI,AI Product Sense
+Anthropic,Tell me about a time a new AI model or technology emerged and how you adapted your roadmap,General
+Anthropic,How would you conduct user research for AI capabilities that users have never experienced?,General
+Anthropic,Describe balancing technical feasibility with ambitious product vision in AI,AI Product Sense
+Anthropic,Walk me through your process for writing PRDs for AI-powered features,AI Technical
+Anthropic,How do you stay current with rapidly evolving AI research and capabilities?,General
+OpenAI,Describe a situation where you had to sunset an AI feature due to misuse or safety concerns,General
+OpenAI,How would you design rate limiting and usage policies for an AI API?,AI Technical
+OpenAI,Tell me about managing products where user behavior was unexpected or emergent,General
+OpenAI,How would you prioritize improvements to model capabilities versus API features?,AI Product Sense
+OpenAI,Walk me through your approach to developer relations for an AI platform,General
+Google,Design a system to detect and prevent AI-generated spam and misinformation,AI Technical
+Google,How would you incorporate AI into Search without degrading trust in results?,AI Product Sense
+Google,Describe your experience with products that required both ML and traditional engineering,AI Technical
+Google,Tell me about a time you managed tradeoffs between model accuracy and latency,AI Technical
+Google,How would you measure cannibalization when adding AI features to existing products?,Analytics
+Microsoft,Describe building an AI product that works across multiple platforms and devices,AI Technical
+Microsoft,How would you ensure AI features are accessible to users with disabilities?,General
+Microsoft,Tell me about a time you had to coordinate AI features across multiple product teams,General
+Microsoft,Walk me through your approach to backward compatibility when upgrading AI models,AI Technical
+Microsoft,How do you handle versioning and deprecation for AI APIs?,AI Product Sense
+Tesla,How would you validate safety for an AI system deployed in autonomous vehicles?,AI Technical
+Tesla,Describe your approach to real-world testing versus simulation for AI features,AI Technical
+Tesla,Tell me about managing products where failure could have life-or-death consequences,General
+Tesla,How would you measure and improve the trust drivers have in autonomous features?,Analytics
+Tesla,Design a gradual rollout strategy for a new autonomy capability,AI Product Sense
