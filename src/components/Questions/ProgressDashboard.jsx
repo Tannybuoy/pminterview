@@ -1,18 +1,24 @@
-function ProgressDashboard({ progress, totalQuestions, onReset }) {
+function ProgressDashboard({ progress, totalQuestions, questionIds, onReset }) {
+  const filteredProgress = questionIds
+    ? Object.fromEntries(
+        Object.entries(progress).filter(([id]) => questionIds.includes(id))
+      )
+    : progress
+
   const counts = {
     needs_practice: 0,
     comfortable: 0,
     mastered: 0
   }
 
-  Object.values(progress).forEach(p => {
+  Object.values(filteredProgress).forEach(p => {
     if (counts.hasOwnProperty(p.status)) {
       counts[p.status]++
     }
   })
 
-  const practiced = Object.keys(progress).length
-  const progressPercent = totalQuestions > 0 ? (practiced / totalQuestions) * 100 : 0
+  const practiced = Object.keys(filteredProgress).length
+  const progressPercent = totalQuestions > 0 ? Math.min((practiced / totalQuestions) * 100, 100) : 0
 
   return (
     <div className="bg-white rounded-lg p-4">
