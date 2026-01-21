@@ -8,10 +8,12 @@ function AboutPage() {
         <div className="bg-white rounded-xl shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Why I Built This</h2>
           <p className="text-gray-700 mb-4">
-            I'm <span className="font-semibold">Tanya Gupta</span>, a Product Manager in a B2B manufacturing environment, and like many PMs, I'm actively
-            learning how AI changes product thinking, trade-offs, and expectations in interviews. Most
-            existing PM prep content is software- or growth-centric; this is my attempt to bridge that
-            gap while building real understanding, not just memorized answers.
+            I'm <span className="font-semibold">Tanya Gupta</span>, a Product Portfolio Manager in a B2B manufacturing
+            environment, responsible for New Product Development, P&L ownership across multiple product
+            lines, Go-To-Market strategy, sales enablement, and leading product migration initiatives.
+            Like many PMs, I'm actively learning how AI changes product thinking, trade-offs, and
+            expectations in interviews. Most existing PM prep content is software- or growth-centric;
+            this is my attempt to bridge that gap while building real understanding, not just memorized answers.
           </p>
           <p className="text-gray-700 mb-4">
             The questions and resources here reflect the areas I'm personally studying and practicing:
