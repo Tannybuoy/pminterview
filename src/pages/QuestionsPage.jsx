@@ -64,7 +64,7 @@ function QuestionsPage() {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
-        <div className="text-gray-500">Loading questions...</div>
+        <div className="text-amber-700">Loading questions...</div>
       </div>
     )
   }
@@ -72,7 +72,7 @@ function QuestionsPage() {
   if (error) {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
-        <div className="text-red-500">Error loading questions. Please refresh the page.</div>
+        <div className="text-red-600">Error loading questions. Please refresh the page.</div>
       </div>
     )
   }
@@ -101,7 +101,7 @@ function QuestionsPage() {
             onToggle={() => setTimerVisible(v => !v)}
           />
         </div>
-        <div className="text-sm text-gray-500">
+        <div className="text-sm text-amber-700">
           Showing {questions.length} of {allQuestions.length} questions
         </div>
       </div>
@@ -123,19 +123,19 @@ function QuestionsPage() {
           <div className="mt-6 flex justify-center">
             <button
               onClick={handleNextQuestion}
-              className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+              className="px-6 py-3 bg-amber-800 text-amber-50 font-medium rounded-lg hover:bg-amber-900 transition-colors"
             >
               Next Question
             </button>
           </div>
         </>
       ) : (
-        <div className="text-center py-12 text-gray-500">
+        <div className="text-center py-12 text-amber-700">
           No questions available for this category.
         </div>
       )}
 
-      <div className="mt-12 pt-8 border-t border-gray-200">
+      <div className="mt-12 pt-8 border-t border-amber-200">
         <ProgressDashboard
           progress={progress}
           totalQuestions={questions.length}

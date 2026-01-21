@@ -22,7 +22,7 @@ function StatusSelector({ currentStatus, onChange }) {
 
   return (
     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
-      <span className="text-sm font-medium text-gray-700">Mark as:</span>
+      <span className="text-sm font-medium text-amber-800">Mark as:</span>
       <div className="flex flex-wrap gap-2">
         {statuses.map(status => {
           const isActive = currentStatus === status.id

@@ -7,13 +7,13 @@ function Timer({ time, visible, onToggle }) {
 
   return (
     <div className="flex items-center gap-2">
-      <span className="text-sm font-medium text-gray-700">Timer:</span>
-      <span className={`font-mono text-lg ${visible ? 'text-gray-900' : 'text-gray-400'}`}>
+      <span className="text-sm font-medium text-amber-800">Timer:</span>
+      <span className={`font-mono text-lg ${visible ? 'text-amber-900' : 'text-amber-400'}`}>
         {visible ? formatTime(time) : '--:--'}
       </span>
       <button
         onClick={onToggle}
-        className="p-1 text-gray-500 hover:text-gray-700 transition-colors"
+        className="p-1 text-amber-600 hover:text-amber-800 transition-colors"
         aria-label={visible ? 'Hide timer' : 'Show timer'}
       >
         {visible ? (
