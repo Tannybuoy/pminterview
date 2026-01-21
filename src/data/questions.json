@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2024-01-21T00:00:00Z",
+  "lastUpdated": "2026-01-21T00:00:00Z",
   "questions": [
     {
       "id": "q_001",
@@ -126,6 +126,197 @@
       "id": "q_025",
       "question": "What is model drift and how would you detect and address it?",
       "category": "AI/ML Concepts"
+    },
+    {
+      "id": "q_026",
+      "company": "Brex",
+      "question": "How do you use AI tools in your work as a PM?",
+      "category": "General"
+    },
+    {
+      "id": "q_027",
+      "company": "LegalGraph",
+      "question": "There are a lot of conversations about adding context to models. How have you managed context?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_028",
+      "company": "Google",
+      "question": "What do you think about MCP servers - are you all-in or skeptical?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_029",
+      "company": "OpenAI",
+      "question": "What goal would you set for an AI only social network that OpenAI is building?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_030",
+      "company": "OpenAI",
+      "question": "How would you measure success for OpenAI?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_031",
+      "company": "Google DeepMind",
+      "question": "Tell me about something you built end-to-end without relying on others.",
+      "category": "General"
+    },
+    {
+      "id": "q_032",
+      "company": "OpenAI",
+      "question": "OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_033",
+      "company": "OpenAI",
+      "question": "Develop a strategy for OpenAI's fine-tuning capabilities using publicly available docs.",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_034",
+      "company": "Snap",
+      "question": "How would you decide between using an open-source model in-house versus a commercial API?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_035",
+      "company": "OpenAI",
+      "question": "OpenAI is launching AirPods-like hardware with built-in voice AI. How would you set goals and success metrics?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_036",
+      "company": "Oracle",
+      "question": "As a product manager at OpenAI, build a new product feature for enterprise users.",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_037",
+      "company": "OpenAI",
+      "question": "What's the effect of adjusting an LLM's context window size?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_038",
+      "company": "Microsoft",
+      "question": "How do you work with data scientists to define the right success metrics for model performance?",
+      "category": "General"
+    },
+    {
+      "id": "q_039",
+      "company": "Google",
+      "question": "Tell me about a time when you had to explain a complex AI concept to non-technical stakeholders.",
+      "category": "General"
+    },
+    {
+      "id": "q_040",
+      "company": "Google",
+      "question": "Give me an example of a time you identified an opportunity to solve a customer problem using AI.",
+      "category": "General"
+    },
+    {
+      "id": "q_041",
+      "company": "Meta",
+      "question": "Describe a situation where you had to make trade-offs between model performance and user experience.",
+      "category": "General"
+    },
+    {
+      "id": "q_042",
+      "company": "Meta",
+      "question": "How would you handle a situation where your AI model works well for 90% of users but produces poor results for the rest?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_043",
+      "company": "Amazon",
+      "question": "Describe a situation where you had to balance technical AI capabilities with user needs or business constraints.",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_044",
+      "company": "Amazon",
+      "question": "Walk me through how you would approach responsible AI considerations in your product planning.",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_045",
+      "company": "Anthropic",
+      "question": "Design a system that enables a GPT to handle multiple questions in a single thread.",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_046",
+      "company": "Amazon",
+      "question": "What's your framework for defining success metrics for AI-powered products?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_047",
+      "company": "Google",
+      "question": "Walk me through how you would evaluate whether AI is the right solution for a given product problem.",
+      "category": "General"
+    },
+    {
+      "id": "q_048",
+      "question": "Describe your strategy for building a roadmap that balances model improvements with feature development.",
+      "category": "General"
+    },
+    {
+      "id": "q_049",
+      "company": "Google",
+      "question": "Three things you're looking for in your ideal job. Three things you dread for what would be a horrible job.",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_050",
+      "company": "Amazon",
+      "question": "Describe how you've handled ethical considerations for an AI product.",
+      "category": "General"
+    },
+    {
+      "id": "q_051",
+      "company": "OpenAI",
+      "question": "Tell me about your experience with prompt engineering and writing AI evals.",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_052",
+      "company": "Meta",
+      "question": "Explain your understanding of how machine learning models work and the implications for product development.",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_053",
+      "company": "OpenAI",
+      "question": "Tell me about a time you shipped an AI feature that backfired.",
+      "category": "General"
+    },
+    {
+      "id": "q_054",
+      "company": "OpenAI",
+      "question": "Describe a situation where you had to explain AI limitations to excited stakeholders.",
+      "category": "General"
+    },
+    {
+      "id": "q_055",
+      "company": "Microsoft",
+      "question": "How would you explain a complex AI system to a non-technical stakeholder and get buy-in?",
+      "category": "General"
+    },
+    {
+      "id": "q_056",
+      "company": "Microsoft",
+      "question": "Tell me about an AI-powered feature you launched where the model had significant technical limitations.",
+      "category": "General"
+    },
+    {
+      "id": "q_057",
+      "company": "Microsoft",
+      "question": "Tell me a time when you had to work with models that were producing inconsistent predictions. How did you handle it?",
+      "category": "AI Technical"
     }
   ],
   "categories": [
@@ -135,6 +326,9 @@
     "Metrics & Analytics",
     "Technical Trade-offs",
     "User Experience",
-    "Communication"
+    "Communication",
+    "General",
+    "AI Product Sense",
+    "AI Technical"
   ]
 }
