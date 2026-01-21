@@ -2,33 +2,44 @@ function AboutPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-2">About</h1>
-      <p className="text-gray-600 mb-8">Learn more about this project and its creator</p>
+      <p className="text-gray-600 mb-8">Learn more about this project</p>
 
       <section className="mb-12">
         <div className="bg-white rounded-xl shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">About This Project</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Why I Built This</h2>
           <p className="text-gray-700 mb-4">
-            AI PM Interview Prep is a free resource designed to help product managers prepare for
-            interviews at top AI companies or for PM roles working on AI products. Whether you're
-            transitioning into AI product management or looking to level up your skills, this site
-            provides curated practice questions and resources to help you succeed.
+            I'm a Product Manager in a B2B manufacturing environment, and like many PMs, I'm actively
+            learning how AI changes product thinking, trade-offs, and expectations in interviews. Most
+            existing PM prep content is software- or growth-centric; this is my attempt to bridge that
+            gap while building real understanding, not just memorized answers.
           </p>
           <p className="text-gray-700 mb-4">
-            The questions cover key areas including Product Sense, Technical understanding,
-            Behavioral scenarios, Analytics, and Ethics & UX considerations specific to AI products.
+            The questions and resources here reflect the areas I'm personally studying and practicing:
+            Product Sense for AI systems, technical fundamentals, behavioral scenarios, analytics, and
+            the ethics and UX challenges that are specific to AI-driven products.
           </p>
           <p className="text-gray-700">
-            More content and features coming soon!
+            I use this site as part of my own interview prep and skill-building. It will continue to
+            evolve as I learn more, hopefully it's useful to others on a similar path. More content
+            and features coming soon!
           </p>
         </div>
 
         <div className="bg-white rounded-xl shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">About the Creator</h2>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Get in Touch</h2>
           <p className="text-gray-700 mb-4">
-            This site was built by <span className="font-semibold">Tanya Gupta</span>, a Portfolio Manager at Danfoss.
-            With a passion for product management and AI, Tanya created this resource to help
-            aspiring AI product managers prepare for their dream roles.
+            Have suggestions, feedback, or want to share your own AI PM interview experiences?
+            I'd love to hear from you!
           </p>
+          <a
+            href="mailto:hello.tanyaa.pm@gmail.com"
+            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            hello.tanyaa.pm@gmail.com
+          </a>
         </div>
 
         <div className="bg-white rounded-xl shadow-sm p-6">
