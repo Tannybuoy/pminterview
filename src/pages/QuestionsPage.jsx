@@ -123,6 +123,7 @@ function QuestionsPage() {
         <ProgressDashboard
           progress={progress}
           totalQuestions={questions.length}
+          questionIds={questions.map(q => q.id)}
           onReset={handleResetProgress}
         />
       </div>
