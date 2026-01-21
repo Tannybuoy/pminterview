@@ -1,0 +1,151 @@
+{
+  "topics": [
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "resources": [
+        {
+          "title": "Model Context Protocol Documentation",
+          "description": "Official documentation for MCP - connect AI to data and tools",
+          "url": "https://modelcontextprotocol.io/introduction"
+        },
+        {
+          "title": "MCP Quickstart Guide",
+          "description": "Get started building with MCP in under 5 minutes",
+          "url": "https://modelcontextprotocol.io/quickstart"
+        },
+        {
+          "title": "Building MCP Servers",
+          "description": "Learn how to create custom MCP servers for your applications",
+          "url": "https://modelcontextprotocol.io/docs/concepts/servers"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "name": "RAG",
+      "resources": [
+        {
+          "title": "What is RAG?",
+          "description": "Comprehensive guide to Retrieval-Augmented Generation",
+          "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/"
+        },
+        {
+          "title": "RAG vs Fine-tuning",
+          "description": "When to use RAG vs fine-tuning for your use case",
+          "url": "https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1"
+        },
+        {
+          "title": "Building Production RAG",
+          "description": "Best practices for RAG systems in production",
+          "url": "https://docs.llamaindex.ai/en/stable/"
+        }
+      ]
+    },
+    {
+      "id": "finetuning",
+      "name": "Fine-tuning",
+      "resources": [
+        {
+          "title": "OpenAI Fine-tuning Guide",
+          "description": "Official documentation for fine-tuning GPT models",
+          "url": "https://platform.openai.com/docs/guides/fine-tuning"
+        },
+        {
+          "title": "When to Fine-tune",
+          "description": "Decision framework for choosing fine-tuning",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+        },
+        {
+          "title": "LoRA and QLoRA Explained",
+          "description": "Efficient fine-tuning techniques for large models",
+          "url": "https://huggingface.co/docs/peft/main/en/conceptual_guides/lora"
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "name": "AI Ethics",
+      "resources": [
+        {
+          "title": "Google AI Principles",
+          "description": "Google's responsible AI practices and principles",
+          "url": "https://ai.google/responsibility/principles/"
+        },
+        {
+          "title": "Anthropic Core Views",
+          "description": "AI safety research principles from Anthropic",
+          "url": "https://www.anthropic.com/research"
+        },
+        {
+          "title": "NIST AI Risk Framework",
+          "description": "Government framework for AI risk management",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+        }
+      ]
+    },
+    {
+      "id": "prompting",
+      "name": "Prompting",
+      "resources": [
+        {
+          "title": "Prompt Engineering Guide",
+          "description": "Comprehensive prompting techniques and best practices",
+          "url": "https://www.promptingguide.ai/"
+        },
+        {
+          "title": "Anthropic Prompt Library",
+          "description": "Example prompts and patterns for Claude",
+          "url": "https://docs.anthropic.com/en/prompt-library/library"
+        },
+        {
+          "title": "OpenAI Prompt Engineering",
+          "description": "Official best practices from OpenAI",
+          "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "name": "LLM Basics",
+      "resources": [
+        {
+          "title": "What are LLMs?",
+          "description": "Beginner-friendly introduction to large language models",
+          "url": "https://www.cloudflare.com/learning/ai/what-is-large-language-model/"
+        },
+        {
+          "title": "The Illustrated Transformer",
+          "description": "Visual explanation of transformer architecture",
+          "url": "https://jalammar.github.io/illustrated-transformer/"
+        },
+        {
+          "title": "Understanding Tokens",
+          "description": "How tokenization works and why it matters",
+          "url": "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+        }
+      ]
+    },
+    {
+      "id": "aipm",
+      "name": "AI PM Skills",
+      "resources": [
+        {
+          "title": "AI Product Management 101",
+          "description": "Comprehensive guide to AI product management",
+          "url": "https://www.lennysnewsletter.com/p/ai-product-management"
+        },
+        {
+          "title": "Building AI-First Products",
+          "description": "Framework for building products with AI at the core",
+          "url": "https://a16z.com/ai-product-management/"
+        },
+        {
+          "title": "ML Product Roadmaps",
+          "description": "How to plan and communicate AI product roadmaps",
+          "url": "https://www.reforge.com/blog/ai-product-management"
+        }
+      ]
+    }
+  ]
+}

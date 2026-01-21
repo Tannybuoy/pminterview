@@ -1,0 +1,92 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "description": "Creator of ChatGPT and GPT models",
+    "careersUrl": "https://openai.com/careers"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "description": "AI safety company, creator of Claude",
+    "careersUrl": "https://www.anthropic.com/careers"
+  },
+  {
+    "id": "deepmind",
+    "name": "Google DeepMind",
+    "description": "AI research laboratory",
+    "careersUrl": "https://deepmind.google/careers/"
+  },
+  {
+    "id": "meta",
+    "name": "Meta AI",
+    "description": "AI research at Meta",
+    "careersUrl": "https://www.metacareers.com/jobs?teams[0]=Artificial%20Intelligence"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft AI",
+    "description": "Azure AI and Copilot products",
+    "careersUrl": "https://careers.microsoft.com/us/en/search-results?keywords=AI"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon (AWS AI)",
+    "description": "AI/ML services on AWS",
+    "careersUrl": "https://www.amazon.jobs/en/teams/aws-ai"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "description": "Enterprise LLM platform",
+    "careersUrl": "https://cohere.com/careers"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "description": "Open-source AI community",
+    "careersUrl": "https://huggingface.co/jobs"
+  },
+  {
+    "id": "scale",
+    "name": "Scale AI",
+    "description": "Data platform for AI",
+    "careersUrl": "https://scale.com/careers"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "description": "AI for creative tools",
+    "careersUrl": "https://runwayml.com/careers"
+  },
+  {
+    "id": "stability",
+    "name": "Stability AI",
+    "description": "Open generative AI",
+    "careersUrl": "https://stability.ai/careers"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "description": "AI-powered search",
+    "careersUrl": "https://www.perplexity.ai/careers"
+  },
+  {
+    "id": "character",
+    "name": "Character.AI",
+    "description": "Conversational AI",
+    "careersUrl": "https://character.ai/careers"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "description": "Open-weight LLM models",
+    "careersUrl": "https://mistral.ai/careers/"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "description": "Data and AI platform",
+    "careersUrl": "https://www.databricks.com/company/careers"
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-21T00:00:00Z",
+  "questions": [
+    {
+      "id": "q_001",
+      "question": "How would you prioritize features for an AI product when you have limited training data?",
+      "category": "Product Strategy"
+    },
+    {
+      "id": "q_002",
+      "question": "Describe how you would measure the success of a machine learning model in production.",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_003",
+      "question": "What are the key differences between managing an AI product vs a traditional software product?",
+      "category": "Product Strategy"
+    },
+    {
+      "id": "q_004",
+      "question": "How would you handle a situation where your AI model is producing biased results?",
+      "category": "AI Ethics"
+    },
+    {
+      "id": "q_005",
+      "question": "Explain the concept of RAG (Retrieval-Augmented Generation) and when you would use it.",
+      "category": "AI/ML Concepts"
+    },
+    {
+      "id": "q_006",
+      "question": "How would you decide between fine-tuning a model vs using prompt engineering?",
+      "category": "AI/ML Concepts"
+    },
+    {
+      "id": "q_007",
+      "question": "Describe a situation where you had to make a trade-off between model accuracy and latency.",
+      "category": "Technical Trade-offs"
+    },
+    {
+      "id": "q_008",
+      "question": "How would you design an A/B test for an AI-powered feature?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_009",
+      "question": "What factors would you consider when choosing between building vs buying an AI solution?",
+      "category": "Product Strategy"
+    },
+    {
+      "id": "q_010",
+      "question": "How do you communicate AI limitations and uncertainties to stakeholders?",
+      "category": "Communication"
+    },
+    {
+      "id": "q_011",
+      "question": "Describe how you would create a roadmap for an AI product with high uncertainty.",
+      "category": "Product Strategy"
+    },
+    {
+      "id": "q_012",
+      "question": "What is the difference between supervised, unsupervised, and reinforcement learning?",
+      "category": "AI/ML Concepts"
+    },
+    {
+      "id": "q_013",
+      "question": "How would you handle user feedback that contradicts what the AI model suggests?",
+      "category": "User Experience"
+    },
+    {
+      "id": "q_014",
+      "question": "Explain how you would approach building an AI product for a regulated industry.",
+      "category": "AI Ethics"
+    },
+    {
+      "id": "q_015",
+      "question": "What metrics would you track to measure user trust in an AI system?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_016",
+      "question": "How would you design a feedback loop to continuously improve an AI model?",
+      "category": "Technical Trade-offs"
+    },
+    {
+      "id": "q_017",
+      "question": "Describe how you would prioritize AI safety vs shipping speed.",
+      "category": "AI Ethics"
+    },
+    {
+      "id": "q_018",
+      "question": "What is prompt engineering and why is it important for LLM-based products?",
+      "category": "AI/ML Concepts"
+    },
+    {
+      "id": "q_019",
+      "question": "How would you explain a complex AI concept to a non-technical executive?",
+      "category": "Communication"
+    },
+    {
+      "id": "q_020",
+      "question": "Describe a framework for evaluating AI vendors and their solutions.",
+      "category": "Product Strategy"
+    },
+    {
+      "id": "q_021",
+      "question": "How do you balance personalization with user privacy in AI products?",
+      "category": "AI Ethics"
+    },
+    {
+      "id": "q_022",
+      "question": "What is the Model Context Protocol (MCP) and how does it enable AI integration?",
+      "category": "AI/ML Concepts"
+    },
+    {
+      "id": "q_023",
+      "question": "How would you design the UX for an AI feature that might give wrong answers?",
+      "category": "User Experience"
+    },
+    {
+      "id": "q_024",
+      "question": "Describe how you would set up monitoring and alerting for an AI system in production.",
+      "category": "Technical Trade-offs"
+    },
+    {
+      "id": "q_025",
+      "question": "What is model drift and how would you detect and address it?",
+      "category": "AI/ML Concepts"
+    }
+  ],
+  "categories": [
+    "Product Strategy",
+    "AI/ML Concepts",
+    "AI Ethics",
+    "Metrics & Analytics",
+    "Technical Trade-offs",
+    "User Experience",
+    "Communication"
+  ]
+}
