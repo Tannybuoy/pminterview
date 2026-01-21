@@ -13,6 +13,8 @@ export function useQuestions(selectedCategory = 'all', selectedCompany = 'all', 
   const [currentQuestion, setCurrentQuestion] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [questionHistory, setQuestionHistory] = useState([])
+  const [historyIndex, setHistoryIndex] = useState(-1)
 
   useEffect(() => {
     async function loadQuestions() {
@@ -37,21 +39,57 @@ export function useQuestions(selectedCategory = 'all', selectedCompany = 'all', 
 
   useEffect(() => {
     if (filteredQuestions.length > 0 && !currentQuestion) {
-      setCurrentQuestion(getRandomQuestion(filteredQuestions, recentQuestions))
+      const question = getRandomQuestion(filteredQuestions, recentQuestions)
+      setCurrentQuestion(question)
+      if (question) {
+        setQuestionHistory([question])
+        setHistoryIndex(0)
+      }
     }
   }, [filteredQuestions.length])
 
   useEffect(() => {
     if (filteredQuestions.length > 0) {
-      setCurrentQuestion(getRandomQuestion(filteredQuestions, recentQuestions))
+      const question = getRandomQuestion(filteredQuestions, recentQuestions)
+      setCurrentQuestion(question)
+      if (question) {
+        setQuestionHistory([question])
+        setHistoryIndex(0)
+      }
     } else {
       setCurrentQuestion(null)
+      setQuestionHistory([])
+      setHistoryIndex(-1)
     }
   }, [selectedCategory, selectedCompany])
 
   const getNextQuestion = useCallback(() => {
-    setCurrentQuestion(getRandomQuestion(filteredQuestions, recentQuestions))
-  }, [filteredQuestions, recentQuestions])
+    if (historyIndex < questionHistory.length - 1) {
+      const nextIndex = historyIndex + 1
+      setHistoryIndex(nextIndex)
+      setCurrentQuestion(questionHistory[nextIndex])
+    } else {
+      const newQuestion = getRandomQuestion(filteredQuestions, recentQuestions)
+      if (newQuestion) {
+        setQuestionHistory(prev => [...prev, newQuestion])
+        setHistoryIndex(prev => prev + 1)
+        setCurrentQuestion(newQuestion)
+      }
+    }
+  }, [filteredQuestions, recentQuestions, historyIndex, questionHistory])
+
+  const getPreviousQuestion = useCallback(() => {
+    if (historyIndex > 0) {
+      const prevIndex = historyIndex - 1
+      setHistoryIndex(prevIndex)
+      setCurrentQuestion(questionHistory[prevIndex])
+      return true
+    }
+    return false
+  }, [historyIndex, questionHistory])
+
+  const hasPreviousQuestion = historyIndex > 0
+  const hasNextInHistory = historyIndex < questionHistory.length - 1
 
   const getCategoryCounts = useCallback(() => {
     const counts = {}
@@ -78,6 +116,9 @@ export function useQuestions(selectedCategory = 'all', selectedCompany = 'all', 
     companies,
     currentQuestion,
     getNextQuestion,
+    getPreviousQuestion,
+    hasPreviousQuestion,
+    hasNextInHistory,
     getCategoryCounts,
     getCompanyCounts,
     isLoading,
