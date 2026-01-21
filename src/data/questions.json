@@ -317,6 +317,636 @@
       "company": "Microsoft",
       "question": "Tell me a time when you had to work with models that were producing inconsistent predictions. How did you handle it?",
       "category": "AI Technical"
+    },
+    {
+      "id": "q_058",
+      "company": "OpenAI",
+      "question": "Describe a time when you had to pivot an AI product strategy based on model limitations",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_059",
+      "company": "OpenAI",
+      "question": "How would you design a content moderation system for a large language model?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_060",
+      "company": "OpenAI",
+      "question": "Walk me through your process for evaluating whether to build vs buy an AI capability",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_061",
+      "company": "OpenAI",
+      "question": "Tell me about a time you had to manage stakeholder expectations around AI capabilities",
+      "category": "General"
+    },
+    {
+      "id": "q_062",
+      "company": "OpenAI",
+      "question": "How would you approach building a roadmap that balances model improvements with feature development?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_063",
+      "company": "Anthropic",
+      "question": "Design a system to measure and improve AI safety in a consumer product",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_064",
+      "company": "Anthropic",
+      "question": "How would you handle a situation where your AI model produces biased outputs for certain demographics?",
+      "category": "General"
+    },
+    {
+      "id": "q_065",
+      "company": "Anthropic",
+      "question": "Describe your approach to defining success metrics for responsible AI features",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_066",
+      "company": "Anthropic",
+      "question": "Tell me about a time you had to balance innovation with safety considerations",
+      "category": "General"
+    },
+    {
+      "id": "q_067",
+      "company": "Anthropic",
+      "question": "How would you design an interface that helps users understand AI limitations?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_068",
+      "company": "Google DeepMind",
+      "question": "Walk me through how you would prioritize research breakthroughs versus product features",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_069",
+      "company": "Google DeepMind",
+      "question": "How do you approach working with research scientists versus product engineers?",
+      "category": "General"
+    },
+    {
+      "id": "q_070",
+      "company": "Google DeepMind",
+      "question": "Design an AI system to improve healthcare diagnostics while ensuring patient privacy",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_071",
+      "company": "Google DeepMind",
+      "question": "Tell me about a time when scientific accuracy conflicted with product usability",
+      "category": "General"
+    },
+    {
+      "id": "q_072",
+      "company": "Google DeepMind",
+      "question": "How would you measure the impact of an AI research breakthrough on product outcomes?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_073",
+      "company": "Meta",
+      "question": "How would you integrate generative AI into Instagram Stories without compromising authenticity?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_074",
+      "company": "Meta",
+      "question": "Describe a situation where you had to scale an AI feature from millions to billions of users",
+      "category": "General"
+    },
+    {
+      "id": "q_075",
+      "company": "Meta",
+      "question": "Design a recommendation system that balances engagement with user wellbeing",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_076",
+      "company": "Meta",
+      "question": "Walk me through how you'd approach A/B testing for features with AI-generated content",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_077",
+      "company": "Meta",
+      "question": "Tell me about a time you worked with data scientists to improve model performance in production",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_078",
+      "company": "Microsoft",
+      "question": "How would you incorporate AI capabilities into Microsoft Teams to improve productivity?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_079",
+      "company": "Microsoft",
+      "question": "Describe your experience managing products that integrate multiple AI models",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_080",
+      "company": "Microsoft",
+      "question": "Tell me about a time you had to explain technical AI tradeoffs to executive leadership",
+      "category": "General"
+    },
+    {
+      "id": "q_081",
+      "company": "Microsoft",
+      "question": "How would you prioritize AI features in a suite of enterprise products?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_082",
+      "company": "Microsoft",
+      "question": "Design an AI copilot feature for a business application you're familiar with",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_083",
+      "company": "Amazon",
+      "question": "How would you use AI to improve the customer experience in e-commerce search and discovery?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_084",
+      "company": "Amazon",
+      "question": "Describe a time you used experimentation to validate an AI feature's business impact",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_085",
+      "company": "Amazon",
+      "question": "Walk me through how you'd design Alexa's next breakthrough capability",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_086",
+      "company": "Amazon",
+      "question": "Tell me about handling a situation where an AI model's cost exceeded projected ROI",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_087",
+      "company": "Amazon",
+      "question": "How do you balance personalization with privacy in AI-powered recommendations?",
+      "category": "General"
+    },
+    {
+      "id": "q_088",
+      "company": "Nvidia",
+      "question": "How would you position an AI infrastructure product to both technical and business buyers?",
+      "category": "General"
+    },
+    {
+      "id": "q_089",
+      "company": "Nvidia",
+      "question": "Describe your approach to product strategy when selling to AI researchers versus enterprises",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_090",
+      "company": "Nvidia",
+      "question": "Tell me about a time you had to educate customers on complex technical capabilities",
+      "category": "General"
+    },
+    {
+      "id": "q_091",
+      "company": "Nvidia",
+      "question": "How would you measure developer adoption and satisfaction for an AI platform?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_092",
+      "company": "Nvidia",
+      "question": "Design a product strategy for making AI training more accessible to smaller companies",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_093",
+      "company": "Hugging Face",
+      "question": "How would you build a community-driven AI product while maintaining quality standards?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_094",
+      "company": "Hugging Face",
+      "question": "Describe your experience with open-source product strategies in AI",
+      "category": "General"
+    },
+    {
+      "id": "q_095",
+      "company": "Hugging Face",
+      "question": "Tell me about balancing free community features with enterprise monetization",
+      "category": "General"
+    },
+    {
+      "id": "q_096",
+      "company": "Hugging Face",
+      "question": "How would you design a discovery experience for thousands of AI models?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_097",
+      "company": "Hugging Face",
+      "question": "Walk me through prioritizing features for both researchers and practitioners",
+      "category": "General"
+    },
+    {
+      "id": "q_098",
+      "company": "Scale AI",
+      "question": "How would you design a data labeling workflow that ensures both quality and efficiency?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_099",
+      "company": "Scale AI",
+      "question": "Describe a time you improved operational metrics in a data-intensive product",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_100",
+      "company": "Scale AI",
+      "question": "Tell me about managing a product where human annotation is critical to AI performance",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_101",
+      "company": "Scale AI",
+      "question": "How would you build tools to help companies evaluate and improve their training data?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_102",
+      "company": "Scale AI",
+      "question": "Walk me through your approach to pricing a data service for AI companies",
+      "category": "General"
+    },
+    {
+      "id": "q_103",
+      "company": "Cohere",
+      "question": "How would you differentiate an enterprise LLM product in a competitive market?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_104",
+      "company": "Cohere",
+      "question": "Describe your approach to building AI APIs that developers love to use",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_105",
+      "company": "Cohere",
+      "question": "Tell me about a time you gathered and prioritized feedback from technical users",
+      "category": "General"
+    },
+    {
+      "id": "q_106",
+      "company": "Cohere",
+      "question": "How would you design developer documentation and examples for an AI platform?",
+      "category": "General"
+    },
+    {
+      "id": "q_107",
+      "company": "Cohere",
+      "question": "Walk me through measuring stickiness and expansion for an AI API product",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_108",
+      "company": "Perplexity",
+      "question": "Design a search experience that leverages both traditional search and generative AI",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_109",
+      "company": "Perplexity",
+      "question": "How would you measure whether AI-generated answers are better than traditional results?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_110",
+      "company": "Perplexity",
+      "question": "Describe handling a situation where AI responses contained factual errors",
+      "category": "General"
+    },
+    {
+      "id": "q_111",
+      "company": "Perplexity",
+      "question": "Tell me about balancing comprehensiveness with speed in AI-powered search",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_112",
+      "company": "Perplexity",
+      "question": "How would you design citation and source attribution for AI-generated content?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_113",
+      "company": "Mistral",
+      "question": "How would you position an open-weight AI model against closed competitors?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_114",
+      "company": "Mistral",
+      "question": "Describe your strategy for building products in both open-source and commercial contexts",
+      "category": "General"
+    },
+    {
+      "id": "q_115",
+      "company": "Mistral",
+      "question": "Tell me about a time you had to make build vs partner decisions for AI capabilities",
+      "category": "General"
+    },
+    {
+      "id": "q_116",
+      "company": "Mistral",
+      "question": "How would you approach international expansion for an AI product?",
+      "category": "General"
+    },
+    {
+      "id": "q_117",
+      "company": "Mistral",
+      "question": "Walk me through designing pricing tiers for models of different sizes and capabilities",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_118",
+      "company": "Character.AI",
+      "question": "How would you design safety rails for a conversational AI product used by millions?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_119",
+      "company": "Character.AI",
+      "question": "Describe your approach to measuring engagement in AI conversation products",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_120",
+      "company": "Character.AI",
+      "question": "Tell me about handling content moderation at scale for AI-generated conversations",
+      "category": "General"
+    },
+    {
+      "id": "q_121",
+      "company": "Character.AI",
+      "question": "How would you design personalization that respects user privacy?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_122",
+      "company": "Character.AI",
+      "question": "Walk me through adding multiplayer or social features to an AI product",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_123",
+      "company": "Runway",
+      "question": "How would you make generative video AI accessible to non-technical creators?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_124",
+      "company": "Runway",
+      "question": "Describe a time you translated cutting-edge AI capabilities into user-friendly features",
+      "category": "General"
+    },
+    {
+      "id": "q_125",
+      "company": "Runway",
+      "question": "Tell me about balancing creative control with AI assistance in content tools",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_126",
+      "company": "Runway",
+      "question": "How would you measure creative success versus technical metrics in generative AI?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_127",
+      "company": "Runway",
+      "question": "Design an onboarding experience for an AI tool with steep learning curves",
+      "category": "General"
+    },
+    {
+      "id": "q_128",
+      "company": "Adept",
+      "question": "How would you design an AI agent that takes actions on behalf of users safely?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_129",
+      "company": "Adept",
+      "question": "Describe your approach to building trust when AI makes autonomous decisions",
+      "category": "General"
+    },
+    {
+      "id": "q_130",
+      "company": "Adept",
+      "question": "Tell me about a time you designed guardrails for AI with significant user impact",
+      "category": "General"
+    },
+    {
+      "id": "q_131",
+      "company": "Adept",
+      "question": "How would you prioritize which workflows to automate with AI agents?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_132",
+      "company": "Adept",
+      "question": "Walk me through measuring productivity gains from AI automation",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_133",
+      "company": "Inflection",
+      "question": "How would you design an AI companion product that feels personal but maintains boundaries?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_134",
+      "company": "Inflection",
+      "question": "Describe handling situations where users develop unhealthy attachments to AI",
+      "category": "General"
+    },
+    {
+      "id": "q_135",
+      "company": "Inflection",
+      "question": "Tell me about balancing emotional intelligence with appropriate AI limitations",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_136",
+      "company": "Inflection",
+      "question": "How would you measure emotional wellbeing outcomes for an AI companion?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_137",
+      "company": "Inflection",
+      "question": "Design privacy controls for a highly personalized conversational AI",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_138",
+      "company": "Anthropic",
+      "question": "Tell me about a time a new AI model or technology emerged and how you adapted your roadmap",
+      "category": "General"
+    },
+    {
+      "id": "q_139",
+      "company": "Anthropic",
+      "question": "How would you conduct user research for AI capabilities that users have never experienced?",
+      "category": "General"
+    },
+    {
+      "id": "q_140",
+      "company": "Anthropic",
+      "question": "Describe balancing technical feasibility with ambitious product vision in AI",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_141",
+      "company": "Anthropic",
+      "question": "Walk me through your process for writing PRDs for AI-powered features",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_142",
+      "company": "Anthropic",
+      "question": "How do you stay current with rapidly evolving AI research and capabilities?",
+      "category": "General"
+    },
+    {
+      "id": "q_143",
+      "company": "OpenAI",
+      "question": "Describe a situation where you had to sunset an AI feature due to misuse or safety concerns",
+      "category": "General"
+    },
+    {
+      "id": "q_144",
+      "company": "OpenAI",
+      "question": "How would you design rate limiting and usage policies for an AI API?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_145",
+      "company": "OpenAI",
+      "question": "Tell me about managing products where user behavior was unexpected or emergent",
+      "category": "General"
+    },
+    {
+      "id": "q_146",
+      "company": "OpenAI",
+      "question": "How would you prioritize improvements to model capabilities versus API features?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_147",
+      "company": "OpenAI",
+      "question": "Walk me through your approach to developer relations for an AI platform",
+      "category": "General"
+    },
+    {
+      "id": "q_148",
+      "company": "Google",
+      "question": "Design a system to detect and prevent AI-generated spam and misinformation",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_149",
+      "company": "Google",
+      "question": "How would you incorporate AI into Search without degrading trust in results?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_150",
+      "company": "Google",
+      "question": "Describe your experience with products that required both ML and traditional engineering",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_151",
+      "company": "Google",
+      "question": "Tell me about a time you managed tradeoffs between model accuracy and latency",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_152",
+      "company": "Google",
+      "question": "How would you measure cannibalization when adding AI features to existing products?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_153",
+      "company": "Microsoft",
+      "question": "Describe building an AI product that works across multiple platforms and devices",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_154",
+      "company": "Microsoft",
+      "question": "How would you ensure AI features are accessible to users with disabilities?",
+      "category": "General"
+    },
+    {
+      "id": "q_155",
+      "company": "Microsoft",
+      "question": "Tell me about a time you had to coordinate AI features across multiple product teams",
+      "category": "General"
+    },
+    {
+      "id": "q_156",
+      "company": "Microsoft",
+      "question": "Walk me through your approach to backward compatibility when upgrading AI models",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_157",
+      "company": "Microsoft",
+      "question": "How do you handle versioning and deprecation for AI APIs?",
+      "category": "AI Product Sense"
+    },
+    {
+      "id": "q_158",
+      "company": "Tesla",
+      "question": "How would you validate safety for an AI system deployed in autonomous vehicles?",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_159",
+      "company": "Tesla",
+      "question": "Describe your approach to real-world testing versus simulation for AI features",
+      "category": "AI Technical"
+    },
+    {
+      "id": "q_160",
+      "company": "Tesla",
+      "question": "Tell me about managing products where failure could have life-or-death consequences",
+      "category": "General"
+    },
+    {
+      "id": "q_161",
+      "company": "Tesla",
+      "question": "How would you measure and improve the trust drivers have in autonomous features?",
+      "category": "Metrics & Analytics"
+    },
+    {
+      "id": "q_162",
+      "company": "Tesla",
+      "question": "Design a gradual rollout strategy for a new autonomy capability",
+      "category": "AI Product Sense"
     }
   ],
   "categories": [
