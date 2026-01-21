@@ -9,11 +9,16 @@ function AboutPage() {
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">Why I Built This</h2>
           <p className="text-gray-700 mb-4">
             I'm <span className="font-semibold">Tanya Gupta</span>, a Product Portfolio Manager in a B2B manufacturing
-            environment, responsible for New Product Development, P&L ownership across multiple product
-            lines, Go-To-Market strategy, sales enablement, and leading product migration initiatives.
-            Like many PMs, I'm actively learning how AI changes product thinking, trade-offs, and
-            expectations in interviews. Most existing PM prep content is software- or growth-centric;
-            this is my attempt to bridge that gap while building real understanding, not just memorized answers.
+            environment, where I own P&L across multiple product lines. Currently I'm running 2 New
+            Product Development programs where I do Voice of Customer, Competitive Analysis, define
+            Go-To-Market strategy, enable Sales team through Training Workshops, and drive product
+            migration initiatives.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Like many PMs, I'm actively learning how AI reshapes product thinking, trade-offs, and
+            interview expectations. Most PM interview prep today is heavily software or growth-centric;
+            this site is my attempt to bridge that gap while building real understanding, not just
+            memorized answers.
           </p>
           <p className="text-gray-700 mb-4">
             The questions and resources here reflect the areas I'm personally studying and practicing:
